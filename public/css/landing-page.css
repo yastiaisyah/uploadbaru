@@ -1,0 +1,355 @@
+/*!
+ * Start Bootstrap - Landing Page (http://startbootstrap.com/template-overviews/landing-page)
+ * Copyright 2013-2017 Start Bootstrap
+niken
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-landing-page/blob/master/LICENSE)
+ */
+
+body, html {
+  width: 100%;
+  height: 100%;
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+body{
+background-color: #F2F5F6;
+}
+.strokee{
+-webkit-text-stroke: 0.2px #000;
+
+
+}
+.intro-header {
+  padding-top: 90px;
+  padding-bottom: 50px;
+  text-align: center;
+  color: #f8f8f8;
+  background: url(../img/depan.jpg) no-repeat center center;
+  background-size: cover;
+  margin-left: -1px;
+}
+
+.intro-message {
+  position: relative;
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+
+.intro-message>h1 {
+  margin: 0;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+  font-size: 5em;
+}
+
+.intro-divider {
+  width: 400px;
+  border-top: 1px solid #f8f8f8;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.intro-message>h3 {
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.intro-social-buttons i {
+  font-size: 80%;
+}
+
+@media(max-width:767px) {
+  .intro-message {
+    padding-bottom: 15%;
+  }
+  .intro-message>h1 {
+    font-size: 3em;
+  }
+  ul.intro-social-buttons>li {
+    display: block;
+    margin-bottom: 20px;
+    padding: 0;
+  }
+  ul.intro-social-buttons>li:last-child {
+    margin-bottom: 0;
+  }
+  .intro-divider {
+    width: 100%;
+  }
+}
+.padding-cont{
+padding-left: 9%;
+padding-right: 9%;
+}
+
+.network-naf {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+.content-section-uu {
+  background: url(../img/side-1.png) no-repeat; 
+  background-size: 60%;
+  margin-top: -1px;
+  margin-left: -1px;
+ }
+
+.content-section-a {
+  padding: 50px 0;
+  
+} 
+
+.content-section-c {
+  padding: 50px 0;
+}
+.content-section-b {
+  padding: 50px 0;
+}
+.content-section-d {
+  padding: 50px 0;
+  background-color: #EDEDEE;
+}
+.section-heading {
+  margin-top:10px;
+  margin-bottom: 10px;
+  text-align:center;
+}
+h2.section-heading1 {
+  margin-bottom: 30px;
+  text-align:center;
+  color: white;
+  
+
+
+}
+h2.section-heading2{
+  margin-bottom: 30px;
+  text-align:right;
+  color: #DB3438;
+
+}
+h5.margin-top{
+  margin-top: 10px;
+}
+a.color{
+  color: white;
+}
+li.color{
+  color: white;
+}
+p.color{
+  color: white;
+}
+.section-heading-spacer {
+  float: left;
+  width: 200px;
+  border-top: 3px solid #e7e7e7;
+}
+.search{
+    padding-right: 30%; padding-left: 30%
+}
+.img-size-footer{
+  width: 50px;height: 50px;
+}
+.font-size{
+  font-size: 1rem;
+  font-weight: 300;
+}
+.banner {
+  padding: 50px 0;
+  background-color: #2D4B71;
+}
+
+.banner h2 {
+  margin: 0;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+  font-size: 3em;
+}
+
+.banner ul {
+  margin-bottom: 0;
+}
+
+.banner-social-buttons {
+  float: right;
+  margin-top: 0;
+}
+
+@media(max-width:1199px) {
+  ul.banner-social-buttons {
+    float: left;
+    margin-top: 15px;
+  }
+}
+
+@media(max-width:767px) {
+  .banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+    font-size: 3em;
+  }
+  ul.banner-social-buttons>li {
+    display: block;
+    margin-bottom: 20px;
+    padding: 0;
+  }
+  ul.banner-social-buttons>li:last-child {
+    margin-bottom: 0;
+  }
+}
+h5.posit {
+  align-items: center;
+  text-align: center;
+  color: #f2f5f6;
+}
+
+.row-centered {
+  text-align: center;
+}
+
+.col-centered {
+  display: inline-block;
+  float: none;
+  align-content: center;
+  align-items: center;
+  /*margin-right: -4px;*/
+}
+footer {
+  padding: 50px 0;
+  background-color: #2F4668;
+}
+
+p.copyright {
+  margin: 15px 0 0;
+  text-align: center;
+  color: white;
+}
+.btn-transparan{
+  color: #fff;
+    background-color: transparent;
+    border-color: #fff;
+    border-width: 2px;
+}
+.btn-trans-red{
+  color:#DB3438;
+    background-color: transparent;
+    border-color: #DB3438;
+    border-width: 2px;
+}
+
+/*=========================
+ Ini tambahan saya 
+ ================= */
+
+
+p.posco {
+  align-items: center;
+  text-align: center;
+  color: #f2f5f6;
+}
+ul.social-network {
+  list-style: none;
+  display: inline;
+  margin-left:0 !important;
+  padding: 0;
+}
+ul.social-network li {
+  display: inline;
+  margin: 0 5px;
+}
+
+a.scrollup{
+  height:32px;
+  width:32px;
+  color:#fff;
+  font-size:18px;
+  line-height:32px;
+  text-align:center;
+  text-decoration:none;
+  position:fixed;
+  bottom:10px;
+  right:10px;
+  z-index:9999;
+  opacity:0.5;
+}
+a.scrollup:hover{
+  opacity:1;
+  color:#fff;
+}
+
+/*===========================
+  --- Template Components ----
+=========================== */
+
+/* footer social icons */
+.social-network a.icoYoutube:hover {
+  background-color: #df192a;
+}
+.social-network a.icoFacebook:hover {
+  background-color:#3B5998;
+}
+.social-network a.icoTwitter:hover {
+  background-color:#33ccff;
+}
+.social-network a.icoGoogle:hover {
+  background-color:#BD3518;
+}
+.social-network a.icoInsta:hover {
+  background-color:#e33269;
+}
+.social-network a.icoYoutube:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i, 
+.social-network a.icoGoogle:hover i, .social-network a.icoInsta:hover i {
+  color:#fff;
+}
+a.socialIcon:hover, .socialHoverClass {
+  color:#44BCDD;
+}
+
+.social-circle li a {
+  display:inline-block;
+  position:relative;
+  margin:0 auto 0 auto;
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+  border-radius:50%;
+  text-align:center;
+  width: 50px;
+  height: 50px;
+  font-size:20px;
+}
+.social-circle li i {
+  margin:0;
+  line-height:50px;
+  text-align: center;
+}
+
+.social-circle li a:hover i, .triggeredHover {
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -ms--transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.social-circle i {
+  color: #2F4668;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+
+/* footer */
+.social-circle li a {
+  background:#EBEBEB;
+}
+
+a.scrollup{
+  background:#35A49C;
+}
